@@ -8,8 +8,8 @@ fstream ttf;
 {
 
 ttf.open("newht.txt", ios::out);
-ttf<<"\n<body>\n"<< "\n<scripttype=text/javascipt src=>  "<<"\n</script>\n"<<"\n</body>\n";
+ttf<<"\n<body>\n"<< "\n<script type=\"text/javascript\">  "<<"\n</script>\n"<<"\n</body>\n";
 ttf.close();
-cout << "Html created \n";
+cout << "HTML created \n";
 return 0;
 }
